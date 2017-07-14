@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Login Page</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,12 +15,14 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <!--<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/loginpage.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -29,15 +31,38 @@
 </head>
 <body>
 
+  <!--insert sick navbar @Maynard-->
+
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+  <div class = "container">
+    <form class = "login-forms">
+      <div class="row">
+        <div class="twelve columns offset-by-three">
+          <label for="username">Username</label>
+          <input class="u-full-width half-width-form" type="email" id="username">
+        </div>
       </div>
-    </div>
+      <div class="row">
+        <div class="twelve columns offset-by-three">
+          <label for="password">Password</label>
+          <input class="u-full-width half-width-form" type="password" id="password">
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <input class="button-primary submit-button" type="submit" value="LOGIN">
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns offset-by-three">
+          <a class = "link">User type 1</a>
+          <a class = "link">User type 2</a>
+          <a class = "link">User type 3</a>
+        </div>
+      </div>
+
+    </form>
   </div>
 
 <!-- End Document

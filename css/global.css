@@ -1,0 +1,19 @@
+.half-width-form {
+    width: 50%;
+}
+
+.submit-button{
+    margin-left: 46%;
+    background-color: #087830 !important;
+    border-color: #087830 !important;
+}
+
+.link{
+    cursor: pointer;
+    color: #087830;
+}
+
+.link:hover{
+    text-decoration: underline;
+    color: #087830;
+}
