@@ -1,0 +1,20 @@
+.search-forms{
+    margin-top: 15%;
+    /*margin-left: -20%;*/
+}
+
+.search-select{
+    font-size: .8em;
+}
+
+.search-results{
+    margin-top: 5%;
+}
+
+.result-title{
+    display: block;
+}
+
+.result-author{
+    display: block;
+}

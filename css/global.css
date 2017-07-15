@@ -1,5 +1,19 @@
+hr { 
+    display: block;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+
 .half-width-form {
     width: 50%;
+}
+
+.max-width{
+    max-width: 100%;
 }
 
 .submit-button{
@@ -16,4 +30,17 @@
 .link:hover{
     text-decoration: underline;
     color: #087830;
+}
+
+.side-bar{
+    margin-top: 35%;
+}
+
+.side-bar-header{
+    font-size: .8em;
+}
+
+.side-bar-link{
+    font-size: .8em;
+    margin: 0 !important;
 }
