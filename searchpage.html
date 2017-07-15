@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Login Page</title>
+  <title>Search Publications</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -35,36 +35,85 @@
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class = "container">
-    <form class = "login-forms">
-      <div class="row">
-        <div class="twelve columns offset-by-three">
-          <label for="username">Username</label>
-          <input class="u-full-width half-width-form" type="text" id="username">
-        </div>
-      </div>
-      <div class="row">
-        <div class="twelve columns offset-by-three">
-          <label for="password">Password</label>
-          <input class="u-full-width half-width-form" type="password" id="password">
-        </div>
-      </div>
-      <div class="row">
-        <div class="twelve columns">
-          <input class="button-primary submit-button" type="submit" value="LOGIN">
-        </div>
-      </div>
-      <div class="row">
-        <div class="twelve columns offset-by-three">
-          <a class = "link">User type 1</a>
-          <a class = "link">User type 2</a>
-          <a class = "link">User type 3</a>
-        </div>
-      </div>
+  <div class = "container max-width">
+      <div class = "row">
+          <div class = "nine columns">
+            <div class = "container">
+                <div class="row">
+                    <form class = "search-forms">
+                        <div class="two columns">
+                            <select class = "search-select">
+                                <option>Title</option>
+                                <option>Author</option>
+                                <option>Publisher</option>
+                            </select>
+                        </div>
+                        <div class="seven columns">
+                            <input class="u-full-width" placeholder="Search..." type="text" id="username">
+                        </div>
+                        <div class="one column">
+                            <select class = "search-select">
+                                <option>View Entire Collection</option>
+                                <option>Books</option>
+                                <option>Thesis</option>
+                                <option>Magazines</option>
+                            </select>
+                        </div>
+                    </form>
+                </div>
+                <div class = "row">
+                    <span>Sort by
+                        <span class = "link">Relevance</span> | 
+                        <span class = "link">Date</span> | 
+                        <span class = "link">Title</span> 
+                    </span>
+                </div>
+                <div class = "row">
+                    <span>Page
+                        <span class = "link">1</span> | 
+                        <span class = "link">2</span> | 
+                        <span class = "link">3</span> | 
+                        <span class = "link">4</span> | 
+                        <span class = "link">5</span> | 
+                        <span class = "link">6</span> |
+                        <span class = "link">Next</span>
+                    </span>
+                </div>
 
-    </form>
+                <div class = "search-results">
+                    <!--one result-->
+                    <div class = "result">
+                        <!--<div class = "container">-->
+                            <div class = "row">
+                                <div class = "three columns">
+                                    <span>1</span>
+                                </div>
+                                <div class = "nine columns">
+                                    <span class = "link result-title">Mathematical Mindsets</span>
+                                    <span class = "result-author">JO Boaler</span>
+                                    <span class = "result-publisher">Springer</span>
+                                </div>
+                            </div>
+                        <!--</div>-->
+                    </div>
+                </div>
+            </div>
+          </div>
+
+          <div class = "three columns">
+            <div class = "container side-bar">
+                <span class = "side-bar-header">Search by Material Type</span>
+                <ul>
+                    <li class = "link side-bar-link">Books</li>
+                    <li class = "link side-bar-link">Thesis</li>
+                    <li class = "link side-bar-link">Magazines</li>
+                </ul>
+                <hr>
+                <span class = "side-bar-header">fuck di ko na alam lalagay d2</span>
+            </div>
+          </div>
+        </div>
   </div>
-
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
