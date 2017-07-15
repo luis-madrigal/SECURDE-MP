@@ -9,8 +9,8 @@ html {
 	min-width: 800px;
 	min-height: 677px;	
 
-	overflow-y: hidden;
-	overflow-x: auto;
+	overflow-y: auto;	
+	overflow-x: hidden;
 }
 
 hr { 
@@ -22,7 +22,6 @@ hr {
     border-style: inset;
     border-width: 1px;
 } 
-
 
 .half-width-form {
     width: 50%;
@@ -102,7 +101,7 @@ hr {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #066026;
     color: white;
 }
 
