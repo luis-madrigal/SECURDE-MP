@@ -5,9 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Login Page</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <title>SHS Online Library System</title>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -16,172 +14,36 @@
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <!--<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/global.css">
   <link rel="stylesheet" href="css/publicationpage.css">
+
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<style type="text/css">
-  body {
-    background: #F1F3FA;
-  }
-  header {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    background-color: #00703C;
-  }
-  header h1{
-    margin-top:3%;
-    margin-bottom:3%;
-  }
-  header h1#logo {
-    display: inline-block;
-    float: left;
-    color: white;
-  }
-  header nav {
-    display: inline-block;
-    position: absolute;
-    top: 36%;
-    left: 75%; 
-    
-  }
-  header nav a {
-    margin-left: 20px;
-    color: #9fdbfc;
-    font-size: 18px;
-    color: white;
-  }
-  header nav a:hover {
-    color: white; 
-  }
-  footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px;
-    background-color: #f5f5f5;
-  }
-  footer p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-  }
-  .container .text-muted {
-    margin: 20px 0;
-  }
-  .sidebar{
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-  }
-  .searchbar{
-    padding:20px;
-  }
-</style>
 <body>
 
-  <!--insert sick navbar @Maynard-->
+	<!-- nav header -->
+	<div class="header">
+		<div class="row">
+			<div class="navheader twelve columns">
+				<h3> SHS Online Library System </h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topnav twelve columns">
+			  <a href="publicationpage.html" class="active">Publications</a>
+			  <a href="#news">Rooms</a>
+			  <a class="r-nav" href="loginpage.html">Login</a>
+			</div>
+		</div>
+	</div>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header>
-    <div class="container">
-      <h1 id="logo">SHS Online Library System</h1>
-      <nav>
-        <a href="" style="visibility: hidden"></a>
-        <a href="" style="visibility: hidden"></a>
-        <a href=""><i class="glyphicon glyphicon-book"></i>Login</a>
-
-      </nav>
-    </div>
-  </header>
-
-  <!-- Search bar -->
-  <div class="row">
-    <div class="container" >
-      <form class="unpadded" action="/search" method="post" name="searchtool" id="search" style="margin:20px;">
-        Search:
-        <select name="searchtype" id="searchtype">
-          <option selected="selected"> Keyword</option>
-          <option> Title</option>
-          <option> Author</option>
-          <option> Publisher</option>
-          <option> Location</option>
-
-        </select>
-        <input type="hidden" name="SORT" id="SORT" value="D">
-        <input maxlength="100" name="searcharg" size="20">
-        <label for="searchscope" style="display:none;">Search Scope</label>
-        <select name="searchscope" id="searchscope">
-          <option value="1" selected="selected"> View Entire Collection</option> 
-          <option value="2"> Books</option> 
-          <option value="3"> Thesis</option> 
-          <option value="4"> Magazines</option>  
-        </select>
-        <button type="button" class="btn btn-success">Submit</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="container">
-      <div class="one-third column"><img src="images/noimage.jpg"></div>
-      <div class="two-thirds column">
-        <table>
-          <tbody>
-            <tr>
-              <td><h3>Tara Road</h3></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td><i class="icon-book"></i>Book</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Author</td>
-              <td>Binchy, Maeve</td>
-            </tr>
-            <tr>
-              <td>Publisher</td>
-              <td>Orion Publishing Group</td>
-            </tr>
-            <tr>
-              <td>Year</td>
-              <td>1998</td>
-            </tr>
-            <tr>
-              <td>Location</td>
-              <td>823.914</td>
-            </tr>
-            <tr>
-              <td>Tags</td>
-              <td><a href="">Domestic fiction</a> <a href="">Love stories</a></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="container">
-      <p class="text-muted"> ©2017 Undefeated sa 3V3</p>
-    </div>
-  </footer>
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>

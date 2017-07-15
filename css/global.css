@@ -13,6 +13,10 @@ html {
 	overflow-x: hidden;
 }
 
+body {
+    background: #F1F3FA;
+}
+
 hr { 
     display: block;
     margin-top: 0.2em;
@@ -56,7 +60,7 @@ hr {
 
 .navheader {
 	width: 100%;
-	background-color: #087830;
+	background-color: #00703C;
 	vertical-align: middle;
 }
 .navheader h3 {
@@ -101,7 +105,7 @@ hr {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #066026;
+    background-color: #008044;
     color: white;
 }
 
