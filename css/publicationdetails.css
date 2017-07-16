@@ -60,3 +60,20 @@ footer p {
 .searchbar{
   padding:20px;
 }
+.review-author{
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.review-desc{
+  font-size: 0.7em;
+}
+#submit-review{
+  margin-left: 92%;
+}
+#edit-button{
+  margin: 2%;
+}
+#delete-button{
+  background-color: red !important;
+  border-color: red !important;
+}
