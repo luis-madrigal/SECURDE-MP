@@ -125,3 +125,7 @@ hr {
     font-size: .8em;
     margin: 0 !important;
 }
+
+.hidden{
+    display: none;
+}

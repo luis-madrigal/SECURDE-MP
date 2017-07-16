@@ -26,6 +26,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
+  <!-- Scripts [jquery always goes first!]-->
+  <script src="scripts/jquery-3.0.0.min.js"></script>
+  <script src="scripts/publicationdetails.js"></script>
 </head>
 <style type="text/css">
 
@@ -88,33 +91,94 @@
     <table>
       <tbody>
         <tr>
-          <td><h3>Tara Road</h3></td>
-          <td></td>
+          <td>
+            <div class = "description-elems">
+              <h3 id = "pub-title-text">Tara Road</h3>
+            </div>
+            <div class = "edit-elems hidden">
+              <label for="pub-title">Publication Title</label>
+              <input class="u-full-width" type="text" id="pub-title">
+            </div>
+          </td>
         </tr>
         <tr>
-          <td><i class="icon-book"></i>Book</td>
-          <td></td>
+          <td>
+            <div class = "description-elems">
+              <span id = "pub-type-text"><i class="icon-book"></i>Book</span>
+            </div>
+            <div class = "edit-elems hidden">
+              <select id = "pub-type-select">
+                  <option>Book</option>
+                  <option>Thesis</option>
+                  <option>Magazine</option>
+              </select>
+            </div>
+          </td>
         </tr>
         <tr>
           <td>Author</td>
-          <td>Binchy, Maeve</td>
+          <td>
+            <div class = "description-elems">
+              <span id = "pub-author-text">Binchy, Maeve</span>
+            </div>
+            <div class = "edit-elems hidden">
+              <input class="u-full-width" type="text" id="pub-author">
+            </div>
+          </td>
         </tr>
         <tr>
           <td>Publisher</td>
-          <td>Orion Publishing Group</td>
+          <td>
+            <div class = "description-elems">
+              <span id = "pub-publisher-text">Orion Publishing Group</span>
+            </div>
+            <div class = "edit-elems hidden">
+              <input class="u-full-width" type="text" id="pub-publisher">
+            </div>
+          </td>
         </tr>
         <tr>
           <td>Year</td>
-          <td>1998</td>
+          <td>
+            <div class = "description-elems">
+              <span id = "pub-year-text">1998</span>
+            </div>
+            <div class = "edit-elems hidden">
+              <select id = "pub-year-select">
+              </select>
+            </div>
+          </td>
         </tr>
         <tr>
           <td>Location</td>
-          <td>823.914</td>
+          <td>
+            <div class = "description-elems">
+              <span id = "pub-location-text">823.914</span>
+            </div>
+            <div class = "edit-elems hidden">
+              <input class="u-full-width" type="text" id="pub-location">
+            </div>
+          </td>
         </tr>
         <tr>
           <td>Tags</td>
-          <td><a href="">Domestic fiction</a> <a href="">Love stories</a></td>
+          <td>
+            <div class = "description-elems">
+              <a href="">Domestic fiction</a> <a href="">Love stories</a>
+            </div>
+            <div class = "edit-elems hidden">
+              <select id = "pub-tag-select">
+                  <option>Math</option>
+                  <option>Science</option>
+              </select>
+            </div>
+          </td>
         </tr>
+        <td>
+          <div class = "edit-elems hidden">
+                <button class = "button-primary submit-button">SUBMIT</button>
+          </div>
+        </td>
       </tbody>
     </table>
   </div>
@@ -129,7 +193,7 @@
 </div>
 
 <div class = "row">
-  <div class = "six columns">
+  <div class = "six columns description-elems">
     <button class = "button-primary submit-button u-pull-right">RESERVE</button>
   </div>
 </div>
