@@ -1,0 +1,1 @@
+INSERT INTO `publicationtype` (`PublicationTypeId`, `PublicationType`) VALUES ('1', 'Book'), ('2', 'Magazine'), ('3', 'Thesis')
