@@ -1,0 +1,16 @@
+INSERT INTO `publisher` (`Publisher`) VALUES 
+('Association for Computing Machinery'),
+('Chichester'),
+('De La Salle University'),
+('Doubleday'),
+('Forbes Inc.'),
+('Harcourt'),
+('Orion Publishing Group'),
+('PC Communications Corp.'),
+('Picador'),
+('Pocket books'),
+('Readers Digest Association'),
+('Scholastic'),
+('Summit Media'),
+('The University of Tokyo'),
+('Wired USA')
