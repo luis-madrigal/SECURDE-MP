@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Search Publications</title>
+  <title>SHS Online Library System</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -31,11 +31,31 @@
 </head>
 <body>
 
-  <!--insert sick navbar @Maynard-->
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class = "container max-width">
+  
+	<!-- nav header -->
+	<div class="header">
+		<div class="row">
+			<div class="navheader twelve columns">
+				<h3> SHS Online Library System </h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="topnav twelve columns">
+			  <a href="searchpage.html" class="active">Publications</a>
+			  <a href="roomspage.html">Rooms</a>
+			  <a class="r-nav" href="loginpage.html">Login</a>
+			</div>
+		</div>
+	</div>
+		
+	<!-- .container is main centered wrapper -->
+
+	<br/><br/><br/><br/>
+  
       <div class = "row">
           <div class = "nine columns">
             <div class = "container">
@@ -85,14 +105,35 @@
                     <div class = "result">
                         <!--<div class = "container">-->
                             <div class = "row">
-                                <div class = "three columns">
-                                    <span>1</span>
-                                </div>
-                                <div class = "nine columns">
-                                    <span class = "link result-title">Mathematical Mindsets</span>
-                                    <span class = "result-author">JO Boaler</span>
-                                    <span class = "result-publisher">Springer</span>
-                                </div>
+								<a href="publicationdetailpage.html">
+									<div class="entry">
+										<div class = "three columns thumbnail">
+											<img src="images/noimage.jpg">
+										</div>
+										<div class = "nine columns">
+											<span class = "link result-title">Mathematical Mindsets</span>
+											<hr/>
+											<span class = "result-author">JO Boaler</span>
+											<span class = "result-publisher">Springer</span> (<span class="result-year">2016</span>)
+										</div>
+									</div>
+								</a>
+                            </div>
+							
+							<div class = "row">
+								<a href="publicationdetailpage.html">
+									<div class="entry">
+										<div class = "three columns thumbnail">
+											<img src="images/noimage.jpg">
+										</div>
+										<div class = "nine columns">
+											<span class = "link result-title">Tara Road</span>
+											<hr/>
+											<span class = "result-author">Maeve Binchy</span>
+											<span class = "result-publisher">Orion Publishing Group</span> (<span class="result-year">1998</span>)
+										</div>
+									</div>
+								</a>
                             </div>
                         <!--</div>-->
                     </div>
