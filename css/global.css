@@ -40,6 +40,10 @@ hr {
     border-color: #087830 !important;
 }
 
+.submit-button input:hover {
+	background-color:#fff;
+}
+
 .link{	
     cursor: pointer;
     color: #087830;

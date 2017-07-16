@@ -22,6 +22,15 @@
 	padding:0;
 }
 
+.selected{
+	background-color: #ff9900;
+}
+
 .time-btn:hover{
 	background-color:#99ff66;
 }
+
+.selected:hover{
+	background-color:#ffcc00;
+}
+
